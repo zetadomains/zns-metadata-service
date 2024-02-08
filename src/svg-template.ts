@@ -25,18 +25,19 @@ export default function createSVGfromTemplate({
   subdomainText,
   version,
 }: SVGTemplateFields) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270"
-  zoomAndPan="magnify" viewBox="0 0 375 374.999991" height="270"
-  preserveAspectRatio="xMidYMid meet" version="1.0">
+  return `<svg width="270" height="270" viewBox="0 0 270 270" fill="none" xmlns="http://www.w3.org/2000/svg">
     ${
       backgroundImage
         ? `<image href="data:${mimeType};base64,${backgroundImage}" width="270" height="270"/>
-        <rect width="270" height="270" fill="#000" fill-opacity=".12"/>`
+        <rect width="270" height="270" fill="#005741" fill-opacity=".12"/>`
         : isNormalized
           ? `<rect width="270" height="270" fill="url(#paint0_linear)"/>`
           : `<rect width="270" height="270" fill="url(#paint1_linear)"/>`
     }
     
+    <filter id="dropShadow" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="270" width="270">
+    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.225" width="200%" height="200%"/>
+  </filter>
     <defs>
     <clipPath id="1065307366">
         <path d="M 102.144531 0 L 375 0 L 375 375 L 102.144531 375 Z M 102.144531 0 "
@@ -150,29 +151,12 @@ export default function createSVGfromTemplate({
             d="M 8.710938 347.128906 C 0.601562 347.128906 -5.972656 353.703125 -5.972656 361.8125 C -5.972656 369.925781 0.601562 376.5 8.710938 376.5 C 16.824219 376.5 23.398438 369.925781 23.398438 361.8125 C 23.398438 353.703125 16.824219 347.128906 8.710938 347.128906 Z M 8.710938 347.128906 "
             clip-rule="nonzero" />
     </clipPath>
-</defs>
-<rect x="-37.5" width="450" fill="#ffffff" y="-37.499999" height="449.999989" fill-opacity="1" />
-<rect x="-37.5" width="450" fill="#005741" y="-37.499999" height="449.999989" fill-opacity="1" />
+</defs> 
 <g clip-path="url(#1065307366)">
     <path fill="#018063"
         d="M 358.382812 406.238281 C 367.949219 406.238281 375.714844 398.472656 375.714844 388.902344 L 375.714844 260.363281 C 375.714844 200.976562 327.402344 152.664062 268.015625 152.664062 L 209.839844 152.664062 C 169.570312 152.664062 136.804688 119.898438 136.804688 79.628906 L 136.804688 -33.359375 C 136.804688 -42.925781 129.039062 -50.695312 119.472656 -50.695312 C 109.902344 -50.695312 102.136719 -42.925781 102.136719 -33.359375 L 102.136719 79.628906 C 102.136719 139.019531 150.449219 187.332031 209.839844 187.332031 L 268.015625 187.332031 C 308.285156 187.332031 341.046875 220.097656 341.046875 260.363281 L 341.046875 388.902344 C 341.046875 398.472656 348.8125 406.238281 358.382812 406.238281 Z M 358.382812 406.238281 "
         fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#76612b8fa5)">
-    <path fill="#fb612d"
-        d="M 205.941406 252.761719 L -25.761719 252.761719 L -25.761719 221.261719 L 205.941406 221.261719 Z M 205.941406 252.761719 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#20279e4e5a)">
-    <path fill="#ffffff"
-        d="M 196.488281 248.621094 L 189.375 248.621094 L 189.375 226.113281 L 196.488281 226.113281 Z M 196.488281 248.621094 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#359325b514)">
-    <path fill="#ffffff"
-        d="M 184.570312 248.621094 L 177.457031 248.621094 L 177.457031 226.113281 L 184.570312 226.113281 Z M 184.570312 248.621094 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
+</g>  
 <g clip-path="url(#103adff1cf)">
     <g clip-path="url(#dd7ee72567)">
         <g clip-path="url(#86bfc7e8cc)">
@@ -218,38 +202,7 @@ export default function createSVGfromTemplate({
             d="M 15.015625 68.726562 L 25.78125 68.726562 L 25.78125 79.492188 L 15.015625 79.492188 Z M 15.015625 68.726562 "
             fill-opacity="1" fill-rule="nonzero" />
     </g>
-</g>
-<g clip-path="url(#e378a1a4ae)">
-    <path fill="#018063"
-        d="M 359.273438 16.480469 L 375.75 16.480469 L 375.75 128.984375 L 359.273438 128.984375 Z M 359.273438 16.480469 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#04cd08ffb4)">
-    <path fill="#ffffff"
-        d="M 364.410156 58.703125 L 369.109375 58.703125 L 369.109375 97.582031 L 364.410156 97.582031 Z M 364.410156 58.703125 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#e44f6936d2)">
-    <g clip-path="url(#288dab206e)">
-        <path fill="#018063"
-            d="M 359.273438 -13.605469 L 428.621094 -13.605469 L 428.621094 55.742188 L 359.273438 55.742188 Z M 359.273438 -13.605469 "
-            fill-opacity="1" fill-rule="nonzero" />
-    </g>
-</g>
-<g clip-path="url(#bddb961935)">
-    <g clip-path="url(#75a93547cb)">
-        <path fill="#fb612d"
-            d="M 271.90625 46.976562 L 301.28125 46.976562 L 301.28125 76.351562 L 271.90625 76.351562 Z M 271.90625 46.976562 "
-            fill-opacity="1" fill-rule="nonzero" />
-    </g>
-</g>
-<g clip-path="url(#8c73f6627a)">
-    <g clip-path="url(#23565339a5)">
-        <path fill="#438898"
-            d="M -5.972656 347.128906 L 23.398438 347.128906 L 23.398438 376.5 L -5.972656 376.5 Z M -5.972656 347.128906 "
-            fill-opacity="1" fill-rule="nonzero" />
-    </g>
-</g>
+</g> 
 
     ${
       isNormalized
@@ -263,8 +216,8 @@ export default function createSVGfromTemplate({
 
     ${subdomainText || ''}
     <text
-      x="90"
-      y="320"
+      x="32.5"
+      y="231"
       font-size="${domainFontSize}px"
       ${isSubdomain ? 'opacity="0.4"' : ''}
       fill="${isNormalized ? "white" : "black"}"
@@ -293,11 +246,11 @@ export default function createSVGfromTemplate({
       <linearGradient id="paint0_linear" x1="190.5" y1="302" x2="-64" y2="-172.5" gradientUnits="userSpaceOnUse">
       ${
         version !== Version.v1w
-          ? `<stop stop-color="#000000"/>
-          <stop offset="0.428185" stop-color="#000000"/>
-          <stop offset="1" stop-color="#000000"/>`
-          : `<stop stop-color="#000000"/>
-        <stop offset="1" stop-color="#000000"/>`
+          ? `<stop stop-color="#005741"/>
+          <stop offset="0.428185" stop-color="#005741"/>
+          <stop offset="1" stop-color="#005741"/>`
+          : `<stop stop-color="#005741"/>
+        <stop offset="1" stop-color="#005741"/>`
       }
       </linearGradient>
       <linearGradient id="paint1_linear" x1="0" y1="0" x2="269.553" y2="285.527" gradientUnits="userSpaceOnUse">
