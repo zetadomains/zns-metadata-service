@@ -173,12 +173,19 @@ export default function createSVGfromTemplate({
         </clipPath>
 
         <linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="0%">
-            <stop offset="50%" stop-color="#005741" />
-            <stop offset="90%" stop-color="#004B38" />
+            <stop offset="10%" stop-color="#018063" />
+            <stop offset="100%" stop-color="#005741" />
         </linearGradient>
 </defs> 
 
-<rect width="270" height="270"  fill="url(#grad1)" />
+${
+    isNormalized
+      ? '<rect width="270" height="270"  fill="url(#grad1)" />'
+      : `
+  `
+  }
+
+
  
 <g clip-path="url(#103adff1cf)">
     <g clip-path="url(#dd7ee72567)">
