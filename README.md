@@ -11,4 +11,9 @@ Zeta Domains Metadata Service for NFTs
 ~$ sudo apt-get install fontconfig && sudo fc-cache -f -v
 ``````
 
+## Cannot find module 'cors' problem solution.
+```console
+~$ npm install typescript && npm install cors --save 
+``````
+
 
