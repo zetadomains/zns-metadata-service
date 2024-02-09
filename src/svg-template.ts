@@ -186,53 +186,55 @@ ${
   }
 
 
- 
-<g clip-path="url(#103adff1cf)">
-    <g clip-path="url(#dd7ee72567)">
-        <g clip-path="url(#86bfc7e8cc)">
-            <path fill="#d4ff5c"
-                d="M 55.257812 42.921875 L 59.917969 47.582031 L 34.242188 73.261719 L 29.578125 68.597656 Z M 55.257812 42.921875 "
+    <g transform="translate(20, 0)">
+        <g clip-path="url(#103adff1cf)">
+            <g clip-path="url(#dd7ee72567)">
+                <g clip-path="url(#86bfc7e8cc)">
+                    <path fill="#d4ff5c"
+                        d="M 55.257812 42.921875 L 59.917969 47.582031 L 34.242188 73.261719 L 29.578125 68.597656 Z M 55.257812 42.921875 "
+                        fill-opacity="1" fill-rule="nonzero" />
+                </g>
+            </g>
+        </g>
+        <g clip-path="url(#a65d3f5dd4)">
+            <path fill="#ffffff"
+                d="M 55.246094 42.917969 L 59.917969 42.917969 L 59.917969 47.570312 L 55.246094 47.570312 Z M 55.246094 42.917969 "
                 fill-opacity="1" fill-rule="nonzero" />
         </g>
+        <g clip-path="url(#22b66c581b)">
+            <path fill="#ffffff"
+                d="M 29.585938 68.578125 L 34.261719 68.578125 L 34.261719 73.253906 L 29.585938 73.253906 Z M 29.585938 68.578125 "
+                fill-opacity="1" fill-rule="nonzero" />
+        </g>
+        <g clip-path="url(#60458f5df7)">
+            <path fill="#ffffff"
+                d="M 59.917969 37.914062 L 59.917969 43.597656 L 29.585938 43.597656 L 29.585938 37.914062 Z M 59.917969 37.914062 "
+                fill-opacity="1" fill-rule="nonzero" />
+        </g>
+        <g clip-path="url(#2e61d35723)">
+            <path fill="#ffffff"
+                d="M 59.984375 73.007812 L 59.984375 78.691406 L 29.585938 78.691406 L 29.585938 73.007812 Z M 59.984375 73.007812 "
+                fill-opacity="1" fill-rule="nonzero" />
+        </g>
+        <g clip-path="url(#2e0fbb2b19)">
+            <path fill="#ffffff"
+                d="M 55.355469 67.46875 L 59.984375 67.46875 L 59.984375 73.382812 L 55.355469 73.382812 Z M 55.355469 67.46875 "
+                fill-opacity="1" fill-rule="nonzero" />
+        </g>
+        <g clip-path="url(#d23e270b81)">
+            <path fill="#ffffff"
+                d="M 29.585938 43.210938 L 34.214844 43.210938 L 34.214844 49.125 L 29.585938 49.125 Z M 29.585938 43.210938 "
+                fill-opacity="1" fill-rule="nonzero" />
+        </g>
+        <g clip-path="url(#2b9937ebe9)">
+            <g clip-path="url(#9220e7734b)">
+                <path fill="#d4ff5c"
+                    d="M 15.015625 68.726562 L 25.78125 68.726562 L 25.78125 79.492188 L 15.015625 79.492188 Z M 15.015625 68.726562 "
+                    fill-opacity="1" fill-rule="nonzero" />
+            </g>
+        </g>
     </g>
-</g>
-<g clip-path="url(#a65d3f5dd4)">
-    <path fill="#ffffff"
-        d="M 55.246094 42.917969 L 59.917969 42.917969 L 59.917969 47.570312 L 55.246094 47.570312 Z M 55.246094 42.917969 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#22b66c581b)">
-    <path fill="#ffffff"
-        d="M 29.585938 68.578125 L 34.261719 68.578125 L 34.261719 73.253906 L 29.585938 73.253906 Z M 29.585938 68.578125 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#60458f5df7)">
-    <path fill="#ffffff"
-        d="M 59.917969 37.914062 L 59.917969 43.597656 L 29.585938 43.597656 L 29.585938 37.914062 Z M 59.917969 37.914062 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#2e61d35723)">
-    <path fill="#ffffff"
-        d="M 59.984375 73.007812 L 59.984375 78.691406 L 29.585938 78.691406 L 29.585938 73.007812 Z M 59.984375 73.007812 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#2e0fbb2b19)">
-    <path fill="#ffffff"
-        d="M 55.355469 67.46875 L 59.984375 67.46875 L 59.984375 73.382812 L 55.355469 73.382812 Z M 55.355469 67.46875 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#d23e270b81)">
-    <path fill="#ffffff"
-        d="M 29.585938 43.210938 L 34.214844 43.210938 L 34.214844 49.125 L 29.585938 49.125 Z M 29.585938 43.210938 "
-        fill-opacity="1" fill-rule="nonzero" />
-</g>
-<g clip-path="url(#2b9937ebe9)">
-    <g clip-path="url(#9220e7734b)">
-        <path fill="#d4ff5c"
-            d="M 15.015625 68.726562 L 25.78125 68.726562 L 25.78125 79.492188 L 15.015625 79.492188 Z M 15.015625 68.726562 "
-            fill-opacity="1" fill-rule="nonzero" />
-    </g>
-</g> 
+
 
  
 
